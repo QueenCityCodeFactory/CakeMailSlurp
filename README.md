@@ -50,4 +50,4 @@ In `config/app.php` or `config/app_local.php` setup the EmailTransport config ar
 ],
 ```
 
-Your existing code should still work if switching from MailTransport or SmtpTransport. This was built for transnational system emails.
+Your existing code should still work if switching from MailTransport or SmtpTransport. This was built for transactional system emails.
