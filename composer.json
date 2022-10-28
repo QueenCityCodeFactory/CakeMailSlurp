@@ -1,0 +1,40 @@
+{
+    "name": "queencitycodefactory/cakemailslurp",
+    "description": "CakePHP 3 MailSlurp Plugin",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "php", "transport", "email", "MailSlurp"],
+    "homepage": "https://github.com/QueenCityCodeFactory/CakeMailSlurp.git",
+    "license": "MIT",
+    "authors":[
+        {
+            "name":"darensipes",
+            "role":"Author",
+            "homepage":"https://github.com/darensipes"
+        }
+    ],
+    "support":{
+        "source":"https://github.com/QueenCityCodeFactory/CakeMailSlurp",
+        "issues":"https://github.com/QueenCityCodeFactory/CakeMailSlurp/issues"
+    },
+    "require": {
+        "php": ">=7.2.0",
+        "cakephp/cakephp": "^3.5.10",
+        "mailslurp/mailslurp-client-php": "^15.14"
+    },
+    "require-dev": {
+        "cakephp/cakephp-codesniffer": "^3.0",
+        "phpunit/phpunit": "^5.7 | ^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CakeMailSlurp\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+           "CakeMailSlurp\\Test\\": "tests"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
