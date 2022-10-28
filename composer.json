@@ -34,5 +34,7 @@
         "psr-4": {
            "CakeMailSlurp\\Test\\": "tests"
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
